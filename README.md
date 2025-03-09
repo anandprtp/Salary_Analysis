@@ -39,7 +39,7 @@ For detailed problem statements, refer to [Business_Requirements.md](Business_Re
 
 ## 📁 Project Structure
 ```
-📂 mysql-employee-compensation/
+📂 Salary Insights/
 ├── 📄 README.md                   # Project overview and instructions
 ├── 📄 Business_Requirements.md    # Detailed business problems and requirements
 ├── 📄 salary_dump.sql             # Database schema and data dump
@@ -87,18 +87,18 @@ The database consists of four main tables:
 ## 🚀 Setup Instructions
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/mysql-employee-compensation.git
-   cd mysql-employee-compensation
+   git clone https://github.com/anandprtp/Salary_Analysis.git
+   cd Salary_Analysis
    ```
 
 2. **Import the database**:
    ```bash
-   mysql -u your_username -p < employee_compensation.sql
+   mysql -u your_username -p < salary_dump.sql
    ```
 
 3. **Execute queries**:
    ```bash
-   mysql -u your_username -p employee_compensation < solutions.sql
+   mysql -u your_username -p salary_dump < salary_insights.sql
    ```
 
    <details>
